@@ -15,6 +15,7 @@ git clone https://github.com/tribeiro/sims_speedObservatory.git
 git clone https://github.com/lsst/sims_seeingModel.git
 git clone https://github.com/lsst/sims_cloudModel.git
 git clone https://github.com/lsst/sims_downtimeModel.git
+git clone https://github.com/lsst/sims_utils.git
 ~~~
 
 # ts_observatory_model (feature/fail_state_in_get_slew_dela)
@@ -71,10 +72,21 @@ eups declare ts_scheduler  -r . -t $USER
 setup ts_scheduler -t $USER
 scons
 ```
+# sims_speedObservatory (bugfix/work_with_latest_socs)
+
+```
+cd sims_speedObservatory
+git checkout bugfix/work_with_latest_socs
+eups declare sims_speedObservatory  -r . -t $USER
+setup sims_speedObservatory -t $USER
+scons
+```
 
 # sims_featureScheduler (FSDriver/latest)
 
 ```
+eups distrib install scipy -t sims
+eups distrib install ephem -t sims
 cd sims_featureScheduler 
 git checkout FSDriver/latest
 eups declare sims_featureScheduler  -r . -t $USER
@@ -92,15 +104,6 @@ setup ts_astrosky_model -t $USER
 scons
 ```
 
-# sims_speedObservatory (bugfix/work_with_latest_socs)
-
-```
-cd sims_speedObservatory
-git checkout bugfix/work_with_latest_socs
-eups declare sims_speedObservatory  -r . -t $USER
-setup sims_speedObservatory -t $USER
-scons
-```
 
 # sims_skybrightness_pre (master)
 
