@@ -8,7 +8,7 @@
 | [mothra_2045](#mothra_2045)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 2 alternating Dec bands switched every other year, WFD off                                  |
 | [mothra_2046](#mothra_2046)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | No pairs survey                                                                             |
 | [pontus_2487](#pontus_2487)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | "Many visits" 20s visits with single snap, 40s visits in u band                             |
-| [kraken_2028](#kraken_2028)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018\_2rolling\_decbands\_wfdbg (**Finished - Copied to opsim2**)                |
+| [kraken_2028](#kraken_2028)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  2 alternating Dec bands switched every other year, WFD on                                  |
 | [pontus_2488](#pontus_2488)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018_nogp (**Started** @ 2018/05/22 - 08:19)                                     |
 | [kraken_2033](#kraken_2033)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018\_2rolling\_decbands\_yr2\_9\_wfdoff (**Started** @ 2018/05/22 - 09:30)      |
 
@@ -63,3 +63,9 @@
 - same footprint and bonus values used in `baseline2018a`
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_nopairs/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_mothra2046_comp/README.md)
+
+### `kraken_2028`
+- 2 alternating Dec bands switched every other year, WFD on
+- *Issue:* DD fields were never observed even though they were in the configuration
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/blob/whitepaper2018_2rolling_decbands_wfdbg/config_run/southcelestialpole_prop.py)
+- [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_kraken2028_comp/README.md)
