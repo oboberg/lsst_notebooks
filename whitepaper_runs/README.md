@@ -56,6 +56,7 @@
 - "Many visits" survey
 -  20s visits with single snap in `g,r,i,z,y`
 -  40s visits with single snap  un `u` band
+- *Issue:* Did not increase the requested visits so WFD finished after about 8 years. This is configuration is being redone with `pontus_2489`.
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_manyvisits/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_pontus2487_comp/README.md)
 
