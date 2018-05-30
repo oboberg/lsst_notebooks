@@ -173,28 +173,28 @@
 | Median Median seeingEff WFD i band HealpixSlicer    |         0.827 |           0.816 |
 
 # Skymap comparisons
-- [Nvisits all bands](figures/colossus_2664_baseline2018a_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2664_baseline2018a_NVisits_all_bands_HEAL_ComboSkyMap.png)
-- [Nvisits alt/az all bands](figures/colossus_2664_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2664_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
-- [Median airmass all bands](figures/colossus_2664_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2664_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [Max airmass all bands](figures/colossus_2664_baseline2018a_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2664_baseline2018a_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [CoaddM5 r band](figures/colossus_2664_baseline2018a_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2664_baseline2018a_CoaddM5_r_band_HEAL_ComboSkyMap.png)
-- [Normalized Proper Motion at 20.5](figures/colossus_2664_baseline2018a_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2664_baseline2018a_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
-- [Normalized Parallax at 22.4](figures/colossus_2664_baseline2018a_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2664_baseline2018a_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
+- [Nvisits all bands](figures/colossus_2664_kraken_2026_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2664_kraken_2026_NVisits_all_bands_HEAL_ComboSkyMap.png)
+- [Nvisits alt/az all bands](figures/colossus_2664_kraken_2026_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2664_kraken_2026_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
+- [Median airmass all bands](figures/colossus_2664_kraken_2026_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2664_kraken_2026_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [Max airmass all bands](figures/colossus_2664_kraken_2026_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2664_kraken_2026_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [CoaddM5 r band](figures/colossus_2664_kraken_2026_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2664_kraken_2026_CoaddM5_r_band_HEAL_ComboSkyMap.png)
+- [Normalized Proper Motion at 20.5](figures/colossus_2664_kraken_2026_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2664_kraken_2026_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
+- [Normalized Parallax at 22.4](figures/colossus_2664_kraken_2026_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2664_kraken_2026_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
 # Histrogram comparisons
 ### CoaddM5 r band HealPix Histrogram
-![png](figures/thumb.colossus_2664_baseline2018a_CoaddM5_r_band_HEAL_ComboHistogram.png)
+![png](figures/thumb.colossus_2664_kraken_2026_CoaddM5_r_band_HEAL_ComboHistogram.png)
 ### Slew Distance Histogram
-![png](figures/thumb.colossus_2664_baseline2018a_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2664_kraken_2026_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Distance Histogram
-![png](figures/thumb.colossus_2664_baseline2018a_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2664_kraken_2026_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Slew Time Histogram
-![png](figures/thumb.colossus_2664_baseline2018a_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2664_kraken_2026_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Time Histogram 
-![png](figures/thumb.colossus_2664_baseline2018a_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2664_kraken_2026_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
