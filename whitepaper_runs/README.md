@@ -52,6 +52,7 @@
 - No WFD proposal in the background.
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_2rolling_decbands/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_mothra2045_comp/README.md)
+- [comparison with mothra_2045](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_mothra2045_comp/README.md)
 
 ### `pontus_2487`
 - "Many visits" survey
