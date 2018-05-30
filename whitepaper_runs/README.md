@@ -44,6 +44,7 @@
 - WFD + DD WFD having 274000 deg sq (X<1.5, DeMin = -78, DecMax = +18)
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_big_wfdonly/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_pontus2002_comp/README.md)
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_pontus2002_comp/README.md)
 
 ### `mothra_2045`
 - Rolling cadence
@@ -75,6 +76,6 @@
 ### `pontus_2488`
 - WFD through GP
 - GP turned off
-- *Issue:* Forgot to removed GP avoidance in SCP, very small effect, but still re-doing simulation.
+- *Issue:* Forgot to remove GP avoidance in SCP, very small effect, but still re-doing simulation.
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_nogp/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_pontus2488_comp/README.md)
