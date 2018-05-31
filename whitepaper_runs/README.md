@@ -11,9 +11,9 @@
 | [kraken_2028](#kraken_2028)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 2 alternating Dec bands switched every other year, WFD on                                   |
 | [pontus_2488](#pontus_2488)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | WFD cadence in GP. GP proposal turned off.                                                  |
 | [colossus_2664](#colossus_2664) | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | WFD cadence in GP. GP proposal turned off (replaces `pontus_2488`).                         |
-| [kraken_2033](#kraken_2033)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018\_2rolling\_decbands\_yr2\_9\_wfdoff (**finshed** on `ops2`)      |
-| [pontus_2489](#pontus_2489)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018\_manyvisits (**finshed** on `ops2`)                                        |
-| [kraken_####](#pontus_2489)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018_2rolling_decbands_wfdbg10p (**running** on `kraken`)                                        |
+| [kraken_2033](#kraken_2033)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  "Many visits" 20s visits with single snap, 40s visits in u band                            |
+| [pontus_2489](#pontus_2489)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018\_manyvisits (**finshed** on `ops2`)                                         |
+| [kraken_####](#pontus_2489)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018_2rolling_decbands_wfdbg10p (**running** on `kraken`)                        |
 
 
 
@@ -96,3 +96,11 @@
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_nogp/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_colossus2664_comp/README.md)
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_colossus2664_comp/README.md)
+
+### `pontus_2487`
+- "Many visits" survey
+-  20s visits with single snap in `g,r,i,z,y`
+-  40s visits with single snap  un `u` band
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_manyvisits/config_run)
+- [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_pontus2489_comp/README.md)
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_pontus2489_comp/README.md)
