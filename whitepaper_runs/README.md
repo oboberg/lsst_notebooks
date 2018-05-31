@@ -13,6 +13,9 @@
 | [colossus_2664](#colossus_2664) | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | WFD cadence in GP. GP proposal turned off (replaces `pontus_2488`).                         |
 | [kraken_2033](#kraken_2033)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018\_2rolling\_decbands\_yr2\_9\_wfdoff (**finshed** on `ops2`)      |
 | [pontus_2489](#pontus_2489)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018\_manyvisits (**finshed** on `ops2`)                                        |
+| [kraken_####](#pontus_2489)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                |  whitepaper2018_2rolling_decbands_wfdbg10p (**running** on `kraken`)                                        |
+
+
 
 # Simulations
 
