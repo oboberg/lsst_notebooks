@@ -38,13 +38,15 @@
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_kraken2026_comp/README.md)
 - [comparison with pontus_2003](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus_2003_kraken2026_comp/README.md)
 
-### `colossus_2665`
-- recreation of baseline using Python3 code, dome crawl, and new delay for OL correction
-- WFD minimum and maximum dec limits increased by 1.5 degrees
-- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/baseline2018_dc_cl_wfd15/config_run)
-- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_colossus2665_comp/README.md)
 
 ## Alternate survey strategies
+
+### `colossus_2665`
+- WFD minimum and maximum dec limits increased by 1.5 degrees
+- possible new baseline
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/baseline2018_dc_cl_wfd15/config_run)
+- [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_colossus2665_comp/README.md)
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_colossus2665_comp/README.md)
 
 ### `pontus_2002`
 - Simulation of a PanSTARRs like survey
