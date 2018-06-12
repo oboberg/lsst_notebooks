@@ -4,6 +4,7 @@
 | [mothra_2044](#mothra_2044)     | 0.3           | 3.0   | 0.0     | 3      |     no     | no                 | Python 3 baseline2018a replacement                           |
 | [pontus_2003](#pontus_2003)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | no                 | Python 3 baseline2018a replacement (with dome crawl)         |
 | [kraken_2026](#kraken_2026)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | Python 3 baseline2018a replacement (with dome crawl and OL)  |
+| [colossus_2665](#colossus_2665) | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | Python 3 baseline2018a replacement (with dome crawl and OL), WFD area increased by 1.5 degrees north an south  |
 | [pontus_2002](#pontus_2002)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | Simulation of a PanSTARRs like survey                        |
 | [mothra_2045](#mothra_2045)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 2 alternating Dec bands switched every other year, WFD off                                  |
 | [mothra_2046](#mothra_2046)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | No pairs survey                                                                             |
@@ -40,6 +41,12 @@
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/baseline2018_dc_cl/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_kraken2026_comp/README.md)
 - [comparison with pontus_2003](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus_2003_kraken2026_comp/README.md)
+
+### `colossus_2665`
+- recreation of baseline using Python3 code, dome crawl, and new delay for OL correction
+- WFD minimum and maximum dec limits increased by 1.5 degrees
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/baseline2018_dc_cl_wfd15/config_run)
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_colossus2665_comp/README.md)
 
 ## Alternate survey strategies
 
