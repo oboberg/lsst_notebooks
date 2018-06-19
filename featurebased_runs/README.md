@@ -12,3 +12,6 @@
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/featurebased_runs/baseline2018a_nexus2089_comp/README.md)
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/featurebased_runs/kraken2026_nexus2089_comp/README.md)
 - `kraken_2026` is a proposal based run with dome crawl
+
+### `nexus_2093`
+- [comparison with colossus_2665](https://github.com/oboberg/lsst_notebooks/blob/master/featurebased_runs/colossus2665_nexus2093_comp/README.md)
