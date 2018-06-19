@@ -174,28 +174,28 @@
 | Median Median seeingEff WFD r band HealpixSlicer    |           0.854 |        0.85  |
 
 # Skymap comparisons
-- [Nvisits all bands](figures/colossus_2665_nexus2093_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2665_nexus2093_NVisits_all_bands_HEAL_ComboSkyMap.png)
-- [Nvisits alt/az all bands](figures/colossus_2665_nexus2093_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2665_nexus2093_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
-- [Median airmass all bands](figures/colossus_2665_nexus2093_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2665_nexus2093_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [Max airmass all bands](figures/colossus_2665_nexus2093_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2665_nexus2093_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [CoaddM5 r band](figures/colossus_2665_nexus2093_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2665_nexus2093_CoaddM5_r_band_HEAL_ComboSkyMap.png)
-- [Normalized Proper Motion at 20.5](figures/colossus_2665_nexus2093_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2665_nexus2093_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
-- [Normalized Parallax at 22.4](figures/colossus_2665_nexus2093_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.colossus_2665_nexus2093_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
+- [Nvisits all bands](figures/colossus_2665_nexus_2093_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_nexus_2093_NVisits_all_bands_HEAL_ComboSkyMap.png)
+- [Nvisits alt/az all bands](figures/colossus_2665_nexus_2093_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_nexus_2093_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
+- [Median airmass all bands](figures/colossus_2665_nexus_2093_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_nexus_2093_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [Max airmass all bands](figures/colossus_2665_nexus_2093_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_nexus_2093_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [CoaddM5 r band](figures/colossus_2665_nexus_2093_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_nexus_2093_CoaddM5_r_band_HEAL_ComboSkyMap.png)
+- [Normalized Proper Motion at 20.5](figures/colossus_2665_nexus_2093_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_nexus_2093_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
+- [Normalized Parallax at 22.4](figures/colossus_2665_nexus_2093_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_nexus_2093_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
 # Histrogram comparisons
 ### CoaddM5 r band HealPix Histrogram
-![png](figures/thumb.colossus_2665_nexus2093_CoaddM5_r_band_HEAL_ComboHistogram.png)
+![png](figures/thumb.colossus_2665_nexus_2093_CoaddM5_r_band_HEAL_ComboHistogram.png)
 ### Slew Distance Histogram
-![png](figures/thumb.colossus_2665_nexus2093_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2665_nexus_2093_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Distance Histogram
-![png](figures/thumb.colossus_2665_nexus2093_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2665_nexus_2093_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Slew Time Histogram
-![png](figures/thumb.colossus_2665_nexus2093_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2665_nexus_2093_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Time Histogram 
-![png](figures/thumb.colossus_2665_nexus2093_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2665_nexus_2093_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
