@@ -9,6 +9,7 @@
 | [colossus_2664](#colossus_2664) | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | WFD cadence in GP. GP proposal turned off                                                  |
 | [colossus_2667](#colossus_2667) | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | No pairs survey                                                                            |
 | [pontus_2489](#pontus_2489)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | "Many visits" 20s visits with single snap, 40s visits in u band )                          |
+| [kraken_2035](#kraken_2035])    | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 9 Deep Drilling Fields (DDFs), 4 already decided + 5 additional                            |
 | [mothra_2045](#mothra_2045)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 2 alternating Dec bands switched every other year, WFD off                                 |
 | [kraken_2028](#kraken_2028)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 2 alternating Dec bands switched every other year, WFD on                                  |
 | [kraken_2033](#kraken_2033)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | whitepaper2018_2rolling_decbands_yr2_9_wfdoff                                              |
@@ -77,6 +78,12 @@
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_manyvisits/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_pontus2489_comp/README.md)
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_pontus2489_comp/README.md)
+
+### `kraken_2035`
+- 9 DDFs
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_9ddfs)
+- [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_kraken2035_comp/README.md)
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2033_comp/README.md)
 
 
 ## Rolling cadences
