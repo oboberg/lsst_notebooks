@@ -11,9 +11,10 @@
 | [pontus_2489](#pontus_2489)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | "Many visits" 20s visits with single snap, 40s visits in u band )                          |
 | [kraken_2035](#kraken_2035])    | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 9 Deep Drilling Fields (DDFs), 4 already decided + 5 additional                            |
 | [mothra_2045](#mothra_2045)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 2 alternating Dec bands switched every other year, WFD off                                 |
-| [kraken_2028](#kraken_2028)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 2 alternating Dec bands switched every other year, WFD on                                  |
-| [kraken_2033](#kraken_2033)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | whitepaper2018_2rolling_decbands_yr2_9_wfdoff                                              |
-| [mothra_2048](#mothra_2048)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | whitepaper2018_2rolling_decbands_wfdbg10p                                                  |
+| [pontus_2502](#pontus_2502)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | 2 alternating Dec bands switched every other year, WFD on at 25% level                     |
+| [kraken_2036](#kraken_2036)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | Full WFD first and last 2 years, 3 alternating dec bands in between                        |
+| [mothra_2048](#mothra_2048)     | 0.3           | 3.0   | 0.0     | 3      |     yes    | yes                | whitepaper2018_2rolling_decbands_wfdbg10p (maybe)                                          |
+
 
 # Simulations
 
@@ -99,10 +100,3 @@
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_2rolling_decbands/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_mothra2045_comp/README.md)
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_mothra2045_comp/README.md)
-
-### `kraken_2028`
-- 2 alternating Dec bands switched every other year, WFD on
-- *Issue:* DD fields were never observed even though they were in the configuration
-- [configuration repository](https://github.com/lsst-ts/opsim4_config/blob/whitepaper2018_2rolling_decbands_wfdbg/config_run/)
-- [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_kraken2028_comp/README.md)
-- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2028_comp/README.md)
