@@ -20,14 +20,18 @@
 # fO
 |                                                       |   kraken_2026 |   pontus_2002 |
 |:------------------------------------------------------|--------------:|--------------:|
-| fOArea: Nvisits (#) fO All visits HealpixSlicer       |       857     |       682     |
-| fOArea: Nvisits/benchmark fO All visits HealpixSlicer |         1.039 |         0.827 |
-| fONv: Area (sqdeg) fO All visits HealpixSlicer        |     18056.6   |      6061.38  |
-| fONv: Area/benchmark fO All visits HealpixSlicer      |         1.003 |         0.337 |
-| fOArea: Nvisits (#) fO WFD HealpixSlicer              |       857     |       682     |
-| fOArea: Nvisits/benchmark fO WFD HealpixSlicer        |         1.039 |         0.827 |
-| fONv: Area (sqdeg) fO WFD HealpixSlicer               |     18040.6   |      6028.65  |
-| fONv: Area/benchmark fO WFD HealpixSlicer             |         1.002 |         0.335 |
+| fOArea fO All visits HealpixSlicer                    |     18056.6   |      6061.38  |
+| fOArea/benchmark fO All visits HealpixSlicer          |         1.003 |         0.337 |
+| fONv MedianNvis fO All visits HealpixSlicer           |       940     |       713     |
+| fONv MinNvis fO All visits HealpixSlicer              |       857     |       682     |
+| fONv/benchmark MedianNvis fO All visits HealpixSlicer |         1.139 |         0.864 |
+| fONv/benchmark MinNvis fO All visits HealpixSlicer    |         1.039 |         0.827 |
+| fOArea fO WFD HealpixSlicer                           |     18040.6   |      6028.65  |
+| fOArea/benchmark fO WFD HealpixSlicer                 |         1.002 |         0.335 |
+| fONv MedianNvis fO WFD HealpixSlicer                  |       938     |       713     |
+| fONv MinNvis fO WFD HealpixSlicer                     |       857     |       682     |
+| fONv/benchmark MedianNvis fO WFD HealpixSlicer        |         1.137 |         0.864 |
+| fONv/benchmark MinNvis fO WFD HealpixSlicer           |         1.039 |         0.827 |
 
 # Total Effective Time
 |                          |   kraken_2026 |   pontus_2002 |
@@ -38,9 +42,9 @@
 # Normalized Effective Time
 |                                                    |   kraken_2026 |   pontus_2002 |
 |:---------------------------------------------------|--------------:|--------------:|
-| Normalized Teff WFD all bands                      |         0.584 |         0.547 |
 | Median Normalized Teff WFD all bands HealpixSlicer |         0.584 |         0.575 |
 | Normalized Teff WFD all bands HealpixSlicer        |     21495     |     31568     |
+| Normalized Teff WFD all bands                      |         0.584 |         0.547 |
 
 # Open Shutter Fraction
 |                                                 |   kraken_2026 |   pontus_2002 |
@@ -86,8 +90,8 @@
 # Fraction in Paris
 |                                                                          |   kraken_2026 |   pontus_2002 |
 |:-------------------------------------------------------------------------|--------------:|--------------:|
-| Median Fraction of visits in pairs (15-60 min) gri WFD+NES HealpixSlicer |         0.876 |         0.883 |
 | Median Fraction of visits in pairs (15-60 min) gri HealpixSlicer         |         0.868 |         0.884 |
+| Median Fraction of visits in pairs (15-60 min) gri WFD+NES HealpixSlicer |         0.876 |         0.883 |
 
 # Slews
 |                            |   kraken_2026 |   pontus_2002 |
@@ -122,53 +126,53 @@
 |                                                  |   kraken_2026 |   pontus_2002 |
 |:-------------------------------------------------|--------------:|--------------:|
 | Fraction of total Nvisits All props              |         1     |         1     |
-| Fraction of total Nvisits WideFastDeep           |         0.864 |         0.957 |
+| Fraction of total Nvisits WFD                    |         0.864 |         0.957 |
 | Fraction of total Nvisits DeepDrillingCosmology1 |         0.046 |         0.043 |
 | Fraction of total Nvisits DD                     |         0.046 |         0.043 |
-| Fraction of total Nvisits WFD                    |         0.864 |         0.957 |
+| Fraction of total Nvisits WideFastDeep           |         0.864 |         0.957 |
 
 # Median Nvisits WFD
 |                                            |   kraken_2026 |   pontus_2002 |
 |:-------------------------------------------|--------------:|--------------:|
+| Median NVisits WFD i band HealpixSlicer    |           204 |           150 |
+| Median NVisits WFD g band HealpixSlicer    |            90 |            66 |
+| Median NVisits WFD y band HealpixSlicer    |           188 |           142 |
 | Median NVisits WFD u band HealpixSlicer    |            64 |            47 |
 | Median NVisits WFD r band HealpixSlicer    |           206 |           151 |
-| Median NVisits WFD y band HealpixSlicer    |           188 |           142 |
-| Median NVisits WFD g band HealpixSlicer    |            90 |            66 |
-| Median NVisits WFD all bands HealpixSlicer |           938 |           696 |
 | Median NVisits WFD z band HealpixSlicer    |           186 |           142 |
-| Median NVisits WFD i band HealpixSlicer    |           204 |           150 |
+| Median NVisits WFD all bands HealpixSlicer |           938 |           696 |
 
 # Median CoaddM5 WFD
 |                                         |   kraken_2026 |   pontus_2002 |
 |:----------------------------------------|--------------:|--------------:|
+| Median CoaddM5 WFD i band HealpixSlicer |        26.618 |        26.455 |
+| Median CoaddM5 WFD g band HealpixSlicer |        27.149 |        26.958 |
+| Median CoaddM5 WFD y band HealpixSlicer |        24.906 |        24.745 |
 | Median CoaddM5 WFD u band HealpixSlicer |        25.651 |        25.453 |
 | Median CoaddM5 WFD r band HealpixSlicer |        27.201 |        27.016 |
-| Median CoaddM5 WFD y band HealpixSlicer |        24.906 |        24.745 |
-| Median CoaddM5 WFD g band HealpixSlicer |        27.149 |        26.958 |
 | Median CoaddM5 WFD z band HealpixSlicer |        25.72  |        25.569 |
-| Median CoaddM5 WFD i band HealpixSlicer |        26.618 |        26.455 |
 
 # Median Airmass WFD
 |                                                   |   kraken_2026 |   pontus_2002 |
 |:--------------------------------------------------|--------------:|--------------:|
+| Median Median airmass WFD i band HealpixSlicer    |         1.044 |         1.081 |
+| Median Median airmass WFD g band HealpixSlicer    |         1.044 |         1.081 |
+| Median Median airmass WFD y band HealpixSlicer    |         1.079 |         1.086 |
 | Median Median airmass WFD u band HealpixSlicer    |         1.044 |         1.079 |
 | Median Median airmass WFD r band HealpixSlicer    |         1.043 |         1.08  |
-| Median Median airmass WFD y band HealpixSlicer    |         1.079 |         1.086 |
-| Median Median airmass WFD g band HealpixSlicer    |         1.044 |         1.081 |
-| Median Median airmass WFD all bands HealpixSlicer |         1.045 |         1.081 |
 | Median Median airmass WFD z band HealpixSlicer    |         1.05  |         1.082 |
-| Median Median airmass WFD i band HealpixSlicer    |         1.044 |         1.081 |
+| Median Median airmass WFD all bands HealpixSlicer |         1.045 |         1.081 |
 
 # Median Seeing WFD
 |                                                     |   kraken_2026 |   pontus_2002 |
 |:----------------------------------------------------|--------------:|--------------:|
+| Median Median seeingEff WFD i band HealpixSlicer    |         0.827 |         0.833 |
+| Median Median seeingEff WFD g band HealpixSlicer    |         0.891 |         0.92  |
+| Median Median seeingEff WFD y band HealpixSlicer    |         0.805 |         0.802 |
 | Median Median seeingEff WFD u band HealpixSlicer    |         0.945 |         0.979 |
 | Median Median seeingEff WFD r band HealpixSlicer    |         0.854 |         0.865 |
-| Median Median seeingEff WFD y band HealpixSlicer    |         0.805 |         0.802 |
-| Median Median seeingEff WFD g band HealpixSlicer    |         0.891 |         0.92  |
-| Median Median seeingEff WFD all bands HealpixSlicer |         0.836 |         0.84  |
 | Median Median seeingEff WFD z band HealpixSlicer    |         0.811 |         0.816 |
-| Median Median seeingEff WFD i band HealpixSlicer    |         0.827 |         0.833 |
+| Median Median seeingEff WFD all bands HealpixSlicer |         0.836 |         0.84  |
 
 # Skymap comparisons
 - [Nvisits all bands](figures/pontus_2002_kraken_2026_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
