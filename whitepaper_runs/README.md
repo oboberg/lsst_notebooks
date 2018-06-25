@@ -74,6 +74,7 @@
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_nopairs/config_run)
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_colossus2667_comp/README.md)
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_colossus2667_comp/README.md)
+- [dither comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_colossus2667_comp_dither/README.md)
 
 ### `pontus_2489`
 - "Many visits" survey
