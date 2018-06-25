@@ -6,7 +6,7 @@
 5. [Parallax](#parallax)
 6. [Proper Motion](#proper-motion)
 7. [Rapid Revisit](#rapid-revisit)
-8. [Fraction in Pairs](#fraction-in-pairs)
+8. [Fraction in Pairs](#fraction-in-paris)
 9. [Slews](#slews)
 10. [Filter Changes](#filter-changes)
 11. [Nvisits](#nvisits)
@@ -20,14 +20,18 @@
 # fO
 |                                                       |   kraken_2026 |   colossus_2667 |
 |:------------------------------------------------------|--------------:|----------------:|
-| fOArea: Nvisits (#) fO All visits HealpixSlicer       |       857     |         891     |
-| fOArea: Nvisits/benchmark fO All visits HealpixSlicer |         1.039 |           1.08  |
-| fONv: Area (sqdeg) fO All visits HealpixSlicer        |     18056.6   |       18056.6   |
-| fONv: Area/benchmark fO All visits HealpixSlicer      |         1.003 |           1.003 |
-| fOArea: Nvisits (#) fO WFD HealpixSlicer              |       857     |         890     |
-| fOArea: Nvisits/benchmark fO WFD HealpixSlicer        |         1.039 |           1.079 |
-| fONv: Area (sqdeg) fO WFD HealpixSlicer               |     18040.6   |       18040.6   |
-| fONv: Area/benchmark fO WFD HealpixSlicer             |         1.002 |           1.002 |
+| fOArea fO All visits HealpixSlicer                    |     18056.6   |       18056.6   |
+| fOArea/benchmark fO All visits HealpixSlicer          |         1.003 |           1.003 |
+| fONv MedianNvis fO All visits HealpixSlicer           |       940     |         949     |
+| fONv MinNvis fO All visits HealpixSlicer              |       857     |         891     |
+| fONv/benchmark MedianNvis fO All visits HealpixSlicer |         1.139 |           1.15  |
+| fONv/benchmark MinNvis fO All visits HealpixSlicer    |         1.039 |           1.08  |
+| fOArea fO WFD HealpixSlicer                           |     18040.6   |       18040.6   |
+| fOArea/benchmark fO WFD HealpixSlicer                 |         1.002 |           1.002 |
+| fONv MedianNvis fO WFD HealpixSlicer                  |       938     |         948     |
+| fONv MinNvis fO WFD HealpixSlicer                     |       857     |         890     |
+| fONv/benchmark MedianNvis fO WFD HealpixSlicer        |         1.137 |           1.149 |
+| fONv/benchmark MinNvis fO WFD HealpixSlicer           |         1.039 |           1.079 |
 
 # Total Effective Time
 |                          |   kraken_2026 |   colossus_2667 |
@@ -38,9 +42,9 @@
 # Normalized Effective Time
 |                                                    |   kraken_2026 |   colossus_2667 |
 |:---------------------------------------------------|--------------:|----------------:|
-| Normalized Teff WFD all bands                      |         0.584 |           0.569 |
 | Median Normalized Teff WFD all bands HealpixSlicer |         0.584 |           0.567 |
 | Normalized Teff WFD all bands HealpixSlicer        |     21495     |       21495     |
+| Normalized Teff WFD all bands                      |         0.584 |           0.569 |
 
 # Open Shutter Fraction
 |                                                 |   kraken_2026 |   colossus_2667 |
@@ -86,8 +90,8 @@
 # Fraction in Pairs
 |                                                                          |   kraken_2026 |   colossus_2667 |
 |:-------------------------------------------------------------------------|--------------:|----------------:|
-| Median Fraction of visits in pairs (15-60 min) gri WFD+NES HealpixSlicer |         0.876 |               0 |
 | Median Fraction of visits in pairs (15-60 min) gri HealpixSlicer         |         0.868 |               0 |
+| Median Fraction of visits in pairs (15-60 min) gri WFD+NES HealpixSlicer |         0.876 |               0 |
 
 # Slews
 |                            |   kraken_2026 |   colossus_2667 |
@@ -122,56 +126,56 @@
 |                                                  |   kraken_2026 |   colossus_2667 |
 |:-------------------------------------------------|--------------:|----------------:|
 | Fraction of total Nvisits All props              |         1     |           1     |
+| Fraction of total Nvisits SouthCelestialPole     |         0.02  |           0.021 |
+| Fraction of total Nvisits NorthEclipticSpur      |         0.054 |           0.054 |
 | Fraction of total Nvisits GalacticPlane          |         0.016 |           0.016 |
-| Fraction of total Nvisits WideFastDeep           |         0.864 |           0.86  |
+| Fraction of total Nvisits WFD                    |         0.864 |           0.86  |
 | Fraction of total Nvisits DeepDrillingCosmology1 |         0.046 |           0.049 |
 | Fraction of total Nvisits DD                     |         0.046 |           0.049 |
-| Fraction of total Nvisits WFD                    |         0.864 |           0.86  |
-| Fraction of total Nvisits NorthEclipticSpur      |         0.054 |           0.054 |
-| Fraction of total Nvisits SouthCelestialPole     |         0.02  |           0.021 |
+| Fraction of total Nvisits WideFastDeep           |         0.864 |           0.86  |
 
 # Median Nvisits WFD
 |                                            |   kraken_2026 |   colossus_2667 |
 |:-------------------------------------------|--------------:|----------------:|
+| Median NVisits WFD i band HealpixSlicer    |           204 |             203 |
+| Median NVisits WFD g band HealpixSlicer    |            90 |              89 |
+| Median NVisits WFD y band HealpixSlicer    |           188 |             195 |
 | Median NVisits WFD u band HealpixSlicer    |            64 |              64 |
 | Median NVisits WFD r band HealpixSlicer    |           206 |             204 |
-| Median NVisits WFD y band HealpixSlicer    |           188 |             195 |
-| Median NVisits WFD g band HealpixSlicer    |            90 |              89 |
-| Median NVisits WFD all bands HealpixSlicer |           938 |             947 |
 | Median NVisits WFD z band HealpixSlicer    |           186 |             192 |
-| Median NVisits WFD i band HealpixSlicer    |           204 |             203 |
+| Median NVisits WFD all bands HealpixSlicer |           938 |             947 |
 
 # Median CoaddM5 WFD
 |                                         |   kraken_2026 |   colossus_2667 |
 |:----------------------------------------|--------------:|----------------:|
+| Median CoaddM5 WFD i band HealpixSlicer |        26.618 |          26.636 |
+| Median CoaddM5 WFD g band HealpixSlicer |        27.149 |          27.128 |
+| Median CoaddM5 WFD y band HealpixSlicer |        24.906 |          24.881 |
 | Median CoaddM5 WFD u band HealpixSlicer |        25.651 |          25.632 |
 | Median CoaddM5 WFD r band HealpixSlicer |        27.201 |          27.188 |
-| Median CoaddM5 WFD y band HealpixSlicer |        24.906 |          24.881 |
-| Median CoaddM5 WFD g band HealpixSlicer |        27.149 |          27.128 |
 | Median CoaddM5 WFD z band HealpixSlicer |        25.72  |          25.757 |
-| Median CoaddM5 WFD i band HealpixSlicer |        26.618 |          26.636 |
 
 # Median Airmass WFD
 |                                                   |   kraken_2026 |   colossus_2667 |
 |:--------------------------------------------------|--------------:|----------------:|
+| Median Median airmass WFD i band HealpixSlicer    |         1.044 |           1.065 |
+| Median Median airmass WFD g band HealpixSlicer    |         1.044 |           1.06  |
+| Median Median airmass WFD y band HealpixSlicer    |         1.079 |           1.112 |
 | Median Median airmass WFD u band HealpixSlicer    |         1.044 |           1.054 |
 | Median Median airmass WFD r band HealpixSlicer    |         1.043 |           1.062 |
-| Median Median airmass WFD y band HealpixSlicer    |         1.079 |           1.112 |
-| Median Median airmass WFD g band HealpixSlicer    |         1.044 |           1.06  |
-| Median Median airmass WFD all bands HealpixSlicer |         1.045 |           1.071 |
 | Median Median airmass WFD z band HealpixSlicer    |         1.05  |           1.097 |
-| Median Median airmass WFD i band HealpixSlicer    |         1.044 |           1.065 |
+| Median Median airmass WFD all bands HealpixSlicer |         1.045 |           1.071 |
 
 # Median Seeing WFD
 |                                                     |   kraken_2026 |   colossus_2667 |
 |:----------------------------------------------------|--------------:|----------------:|
+| Median Median seeingEff WFD i band HealpixSlicer    |         0.827 |           0.823 |
+| Median Median seeingEff WFD g band HealpixSlicer    |         0.891 |           0.911 |
+| Median Median seeingEff WFD y band HealpixSlicer    |         0.805 |           0.829 |
 | Median Median seeingEff WFD u band HealpixSlicer    |         0.945 |           0.952 |
 | Median Median seeingEff WFD r band HealpixSlicer    |         0.854 |           0.861 |
-| Median Median seeingEff WFD y band HealpixSlicer    |         0.805 |           0.829 |
-| Median Median seeingEff WFD g band HealpixSlicer    |         0.891 |           0.911 |
-| Median Median seeingEff WFD all bands HealpixSlicer |         0.836 |           0.85  |
 | Median Median seeingEff WFD z band HealpixSlicer    |         0.811 |           0.829 |
-| Median Median seeingEff WFD i band HealpixSlicer    |         0.827 |           0.823 |
+| Median Median seeingEff WFD all bands HealpixSlicer |         0.836 |           0.85  |
 
 # Skymap comparisons
 - [Nvisits all bands](figures/kraken_2026_colossus_2667_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
