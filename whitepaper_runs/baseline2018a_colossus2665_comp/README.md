@@ -6,7 +6,7 @@
 5. [Parallax](#parallax)
 6. [Proper Motion](#proper-motion)
 7. [Rapid Revisit](#rapid-revisit)
-8. [Fraction in Paris](#fraction-in-paris)
+8. [Fraction in Pairs](#fraction-in-pairs)
 9. [Slews](#slews)
 10. [Filter Changes](#filter-changes)
 11. [Nvisits](#nvisits)
@@ -87,7 +87,7 @@
 | Median RapidRevisits WFD HealpixSlicer               |            0    |             0   |
 | RapidRevisits WFD HealpixSlicer                      |        21495    |         22371   |
 
-# Fraction in Paris
+# Fraction in Pairs
 |                                                                          |   baseline2018a |   colossus_2665 |
 |:-------------------------------------------------------------------------|----------------:|----------------:|
 | Median Fraction of visits in pairs (15-60 min) gri HealpixSlicer         |           0.895 |           0.881 |
@@ -201,5 +201,5 @@
 ![png](figures/thumb.colossus_2665_baseline2018a_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Slew Time Histogram
 ![png](figures/thumb.colossus_2665_baseline2018a_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
-### Zoom Slew Time Histogram 
+### Zoom Slew Time Histogram
 ![png](figures/thumb.colossus_2665_baseline2018a_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)

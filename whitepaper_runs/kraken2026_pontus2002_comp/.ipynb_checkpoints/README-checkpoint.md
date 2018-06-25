@@ -6,7 +6,7 @@
 5. [Parallax](#parallax)
 6. [Proper Motion](#proper-motion)
 7. [Rapid Revisit](#rapid-revisit)
-8. [Fraction in Paris](#fraction-in-paris)
+8. [Fraction in Pairs](#fraction-in-pairs)
 9. [Slews](#slews)
 10. [Filter Changes](#filter-changes)
 11. [Nvisits](#nvisits)
@@ -83,7 +83,7 @@
 | Median RapidRevisits WFD HealpixSlicer               |           0   |          0    |
 | RapidRevisits WFD HealpixSlicer                      |       21495   |      31568    |
 
-# Fraction in Paris
+# Fraction in Pairs
 |                                                                          |   kraken_2026 |   pontus_2002 |
 |:-------------------------------------------------------------------------|--------------:|--------------:|
 | Median Fraction of visits in pairs (15-60 min) gri WFD+NES HealpixSlicer |         0.876 |         0.883 |
