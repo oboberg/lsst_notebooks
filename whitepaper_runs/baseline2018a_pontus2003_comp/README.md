@@ -178,28 +178,28 @@
 | Median Median seeingEff WFD u band HealpixSlicer    |           0.956 |         0.955 |
 
 # Skymap comparisons
-- [Nvisits all bands](figures/baseline2018a_pontus_2003_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_pontus_2003_NVisits_all_bands_HEAL_ComboSkyMap.png)
-- [Nvisits alt/az all bands](figures/baseline2018a_pontus_2003_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_pontus_2003_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
-- [Median airmass all bands](figures/baseline2018a_pontus_2003_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_pontus_2003_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [Max airmass all bands](figures/baseline2018a_pontus_2003_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_pontus_2003_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [CoaddM5 r band](figures/baseline2018a_pontus_2003_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_pontus_2003_CoaddM5_r_band_HEAL_ComboSkyMap.png)
-- [Normalized Proper Motion at 20.5](figures/baseline2018a_pontus_2003_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_pontus_2003_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
-- [Normalized Parallax at 22.4](figures/baseline2018a_pontus_2003_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_pontus_2003_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
+- [Nvisits all bands](figures/pontus_2003_baseline2018a_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.pontus_2003_baseline2018a_NVisits_all_bands_HEAL_ComboSkyMap.png)
+- [Nvisits alt/az all bands](figures/pontus_2003_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.pontus_2003_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
+- [Median airmass all bands](figures/pontus_2003_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.pontus_2003_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [Max airmass all bands](figures/pontus_2003_baseline2018a_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.pontus_2003_baseline2018a_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [CoaddM5 r band](figures/pontus_2003_baseline2018a_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.pontus_2003_baseline2018a_CoaddM5_r_band_HEAL_ComboSkyMap.png)
+- [Normalized Proper Motion at 20.5](figures/pontus_2003_baseline2018a_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.pontus_2003_baseline2018a_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
+- [Normalized Parallax at 22.4](figures/pontus_2003_baseline2018a_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.pontus_2003_baseline2018a_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
 # Histrogram comparisons
 ### CoaddM5 r band HealPix Histrogram
-![png](figures/thumb.baseline2018a_pontus_2003_CoaddM5_r_band_HEAL_ComboHistogram.png)
+![png](figures/thumb.pontus_2003_baseline2018a_CoaddM5_r_band_HEAL_ComboHistogram.png)
 ### Slew Distance Histogram
-![png](figures/thumb.baseline2018a_pontus_2003_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.pontus_2003_baseline2018a_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Distance Histogram
-![png](figures/thumb.baseline2018a_pontus_2003_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.pontus_2003_baseline2018a_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Slew Time Histogram
-![png](figures/thumb.baseline2018a_pontus_2003_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.pontus_2003_baseline2018a_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Time Histogram 
-![png](figures/thumb.baseline2018a_pontus_2003_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.pontus_2003_baseline2018a_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
