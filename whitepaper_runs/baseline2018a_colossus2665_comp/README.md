@@ -20,14 +20,18 @@
 # fO
 |                                                       |   baseline2018a |   colossus_2665 |
 |:------------------------------------------------------|----------------:|----------------:|
-| fOArea: Nvisits (#) fO All visits HealpixSlicer       |         836     |         824     |
-| fOArea: Nvisits/benchmark fO All visits HealpixSlicer |           1.013 |           0.999 |
-| fONv: Area (sqdeg) fO All visits HealpixSlicer        |       18056.6   |       17819.9   |
-| fONv: Area/benchmark fO All visits HealpixSlicer      |           1.003 |           0.99  |
-| fOArea: Nvisits (#) fO WFD HealpixSlicer              |         835     |         824     |
-| fOArea: Nvisits/benchmark fO WFD HealpixSlicer        |           1.012 |           0.999 |
-| fONv: Area (sqdeg) fO WFD HealpixSlicer               |       18040.6   |       17783.8   |
-| fONv: Area/benchmark fO WFD HealpixSlicer             |           1.002 |           0.988 |
+| fOArea fO All visits HealpixSlicer                    |       18056.6   |       17819.9   |
+| fOArea/benchmark fO All visits HealpixSlicer          |           1.003 |           0.99  |
+| fONv MedianNvis fO All visits HealpixSlicer           |         915     |         910     |
+| fONv MinNvis fO All visits HealpixSlicer              |         836     |         824     |
+| fONv/benchmark MedianNvis fO All visits HealpixSlicer |           1.109 |           1.103 |
+| fONv/benchmark MinNvis fO All visits HealpixSlicer    |           1.013 |           0.999 |
+| fOArea fO WFD HealpixSlicer                           |       18040.6   |       17783.8   |
+| fOArea/benchmark fO WFD HealpixSlicer                 |           1.002 |           0.988 |
+| fONv MedianNvis fO WFD HealpixSlicer                  |         912     |         907     |
+| fONv MinNvis fO WFD HealpixSlicer                     |         835     |         824     |
+| fONv/benchmark MedianNvis fO WFD HealpixSlicer        |           1.105 |           1.099 |
+| fONv/benchmark MinNvis fO WFD HealpixSlicer           |           1.012 |           0.999 |
 
 # Total Effective Time
 |                          |   baseline2018a |   colossus_2665 |
@@ -38,9 +42,9 @@
 # Normalized Effective Time
 |                                                    |   baseline2018a |   colossus_2665 |
 |:---------------------------------------------------|----------------:|----------------:|
-| Normalized Teff WFD all bands                      |           0.585 |           0.581 |
 | Median Normalized Teff WFD all bands HealpixSlicer |           0.584 |           0.583 |
 | Normalized Teff WFD all bands HealpixSlicer        |       21495     |       22371     |
+| Normalized Teff WFD all bands                      |           0.585 |           0.581 |
 
 # Open Shutter Fraction
 |                                                 |   baseline2018a |   colossus_2665 |
@@ -122,80 +126,80 @@
 |                                                  |   baseline2018a |   colossus_2665 |
 |:-------------------------------------------------|----------------:|----------------:|
 | Fraction of total Nvisits All props              |           1     |           1     |
-| Fraction of total Nvisits WFD                    |           0.864 |           0.868 |
 | Fraction of total Nvisits DeepDrillingCosmology1 |           0.046 |           0.051 |
+| Fraction of total Nvisits DD                     |           0.046 |           0.051 |
+| Fraction of total Nvisits WFD                    |           0.864 |           0.868 |
 | Fraction of total Nvisits NorthEclipticSpur      |           0.055 |           0.049 |
 | Fraction of total Nvisits WideFastDeep           |           0.864 |           0.868 |
-| Fraction of total Nvisits DD                     |           0.046 |           0.051 |
 | Fraction of total Nvisits GalacticPlane          |           0.016 |           0.015 |
 | Fraction of total Nvisits SouthCelestialPole     |           0.02  |           0.016 |
 
 # Median Nvisits WFD
 |                                            |   baseline2018a |   colossus_2665 |
 |:-------------------------------------------|----------------:|----------------:|
-| Median NVisits WFD y band HealpixSlicer    |             182 |             181 |
 | Median NVisits WFD all bands HealpixSlicer |             912 |             903 |
+| Median NVisits WFD g band HealpixSlicer    |              87 |              86 |
 | Median NVisits WFD z band HealpixSlicer    |             183 |             180 |
+| Median NVisits WFD y band HealpixSlicer    |             182 |             181 |
+| Median NVisits WFD r band HealpixSlicer    |             200 |             198 |
 | Median NVisits WFD i band HealpixSlicer    |             199 |             197 |
 | Median NVisits WFD u band HealpixSlicer    |              62 |              61 |
-| Median NVisits WFD r band HealpixSlicer    |             200 |             198 |
-| Median NVisits WFD g band HealpixSlicer    |              87 |              86 |
 
 # Median CoaddM5 WFD
 |                                         |   baseline2018a |   colossus_2665 |
 |:----------------------------------------|----------------:|----------------:|
-| Median CoaddM5 WFD y band HealpixSlicer |          24.892 |          24.875 |
+| Median CoaddM5 WFD g band HealpixSlicer |          27.11  |          27.127 |
 | Median CoaddM5 WFD z band HealpixSlicer |          25.707 |          25.704 |
+| Median CoaddM5 WFD y band HealpixSlicer |          24.892 |          24.875 |
+| Median CoaddM5 WFD r band HealpixSlicer |          27.188 |          27.179 |
 | Median CoaddM5 WFD i band HealpixSlicer |          26.613 |          26.599 |
 | Median CoaddM5 WFD u band HealpixSlicer |          25.615 |          25.626 |
-| Median CoaddM5 WFD r band HealpixSlicer |          27.188 |          27.179 |
-| Median CoaddM5 WFD g band HealpixSlicer |          27.11  |          27.127 |
 
 # Median Airmass WFD
 |                                                   |   baseline2018a |   colossus_2665 |
 |:--------------------------------------------------|----------------:|----------------:|
-| Median Median airmass WFD y band HealpixSlicer    |           1.079 |           1.083 |
 | Median Median airmass WFD all bands HealpixSlicer |           1.048 |           1.048 |
+| Median Median airmass WFD g band HealpixSlicer    |           1.046 |           1.047 |
 | Median Median airmass WFD z band HealpixSlicer    |           1.057 |           1.05  |
+| Median Median airmass WFD y band HealpixSlicer    |           1.079 |           1.083 |
+| Median Median airmass WFD r band HealpixSlicer    |           1.045 |           1.046 |
 | Median Median airmass WFD i band HealpixSlicer    |           1.05  |           1.047 |
 | Median Median airmass WFD u band HealpixSlicer    |           1.044 |           1.047 |
-| Median Median airmass WFD r band HealpixSlicer    |           1.045 |           1.046 |
-| Median Median airmass WFD g band HealpixSlicer    |           1.046 |           1.047 |
 
 # Median Seeing WFD
 |                                                     |   baseline2018a |   colossus_2665 |
 |:----------------------------------------------------|----------------:|----------------:|
-| Median Median seeingEff WFD y band HealpixSlicer    |           0.806 |           0.812 |
 | Median Median seeingEff WFD all bands HealpixSlicer |           0.836 |           0.835 |
+| Median Median seeingEff WFD g band HealpixSlicer    |           0.906 |           0.889 |
 | Median Median seeingEff WFD z band HealpixSlicer    |           0.816 |           0.805 |
+| Median Median seeingEff WFD y band HealpixSlicer    |           0.806 |           0.812 |
+| Median Median seeingEff WFD r band HealpixSlicer    |           0.849 |           0.854 |
 | Median Median seeingEff WFD i band HealpixSlicer    |           0.823 |           0.824 |
 | Median Median seeingEff WFD u band HealpixSlicer    |           0.956 |           0.948 |
-| Median Median seeingEff WFD r band HealpixSlicer    |           0.849 |           0.854 |
-| Median Median seeingEff WFD g band HealpixSlicer    |           0.906 |           0.889 |
 
 # Skymap comparisons
-- [Nvisits all bands](figures/baseline2018a_colossus_2665_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_colossus_2665_NVisits_all_bands_HEAL_ComboSkyMap.png)
-- [Nvisits alt/az all bands](figures/baseline2018a_colossus_2665_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_colossus_2665_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
-- [Median airmass all bands](figures/baseline2018a_colossus_2665_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_colossus_2665_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [Max airmass all bands](figures/baseline2018a_colossus_2665_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_colossus_2665_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [CoaddM5 r band](figures/baseline2018a_colossus_2665_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_colossus_2665_CoaddM5_r_band_HEAL_ComboSkyMap.png)
-- [Normalized Proper Motion at 20.5](figures/baseline2018a_colossus_2665_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_colossus_2665_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
-- [Normalized Parallax at 22.4](figures/baseline2018a_colossus_2665_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_colossus_2665_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
+- [Nvisits all bands](figures/colossus_2665_baseline2018a_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_baseline2018a_NVisits_all_bands_HEAL_ComboSkyMap.png)
+- [Nvisits alt/az all bands](figures/colossus_2665_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
+- [Median airmass all bands](figures/colossus_2665_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [Max airmass all bands](figures/colossus_2665_baseline2018a_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_baseline2018a_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [CoaddM5 r band](figures/colossus_2665_baseline2018a_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_baseline2018a_CoaddM5_r_band_HEAL_ComboSkyMap.png)
+- [Normalized Proper Motion at 20.5](figures/colossus_2665_baseline2018a_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_baseline2018a_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
+- [Normalized Parallax at 22.4](figures/colossus_2665_baseline2018a_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.colossus_2665_baseline2018a_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
 # Histrogram comparisons
 ### CoaddM5 r band HealPix Histrogram
-![png](figures/thumb.baseline2018a_colossus_2665_CoaddM5_r_band_HEAL_ComboHistogram.png)
+![png](figures/thumb.colossus_2665_baseline2018a_CoaddM5_r_band_HEAL_ComboHistogram.png)
 ### Slew Distance Histogram
-![png](figures/thumb.baseline2018a_colossus_2665_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2665_baseline2018a_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Distance Histogram
-![png](figures/thumb.baseline2018a_colossus_2665_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2665_baseline2018a_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Slew Time Histogram
-![png](figures/thumb.baseline2018a_colossus_2665_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2665_baseline2018a_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Time Histogram 
-![png](figures/thumb.baseline2018a_colossus_2665_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.colossus_2665_baseline2018a_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
