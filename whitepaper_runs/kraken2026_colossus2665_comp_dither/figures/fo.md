@@ -1,10 +1,14 @@
-|                                                                                          |   kraken_2026 |   colossus_2665 |
-|:-----------------------------------------------------------------------------------------|--------------:|----------------:|
-| fOArea: Nvisits (#) fO  RandomDitherPerNight RandomDitherPerNight HealpixSlicer          |       643     |         923     |
-| fOArea: Nvisits/benchmark fO  RandomDitherPerNight RandomDitherPerNight HealpixSlicer    |         0.779 |           1.119 |
-| fONv: Area (sqdeg) fO  RandomDitherPerNight RandomDitherPerNight HealpixSlicer           |     17571.5   |       18226.1   |
-| fONv: Area/benchmark fO  RandomDitherPerNight RandomDitherPerNight HealpixSlicer         |         0.976 |           1.013 |
-| fOArea: Nvisits (#) fO WFD RandomDitherPerNight RandomDitherPerNight HealpixSlicer       |       507     |         874     |
-| fOArea: Nvisits/benchmark fO WFD RandomDitherPerNight RandomDitherPerNight HealpixSlicer |         0.615 |           1.059 |
-| fONv: Area (sqdeg) fO WFD RandomDitherPerNight RandomDitherPerNight HealpixSlicer        |     17416.2   |       18097.7   |
-| fONv: Area/benchmark fO WFD RandomDitherPerNight RandomDitherPerNight HealpixSlicer      |         0.968 |           1.005 |
+|                                                                            |   kraken_2026 |   colossus_2665 |
+|:---------------------------------------------------------------------------|--------------:|----------------:|
+| fOArea fO All visits RandomDitherPerNight HealpixSlicer                    |     17584     |       18221.1   |
+| fOArea/benchmark fO All visits RandomDitherPerNight HealpixSlicer          |         0.977 |           1.012 |
+| fONv MedianNvis fO All visits RandomDitherPerNight HealpixSlicer           |      1125     |        1083     |
+| fONv MinNvis fO All visits RandomDitherPerNight HealpixSlicer              |       644     |         927     |
+| fONv/benchmark MedianNvis fO All visits RandomDitherPerNight HealpixSlicer |         1.364 |           1.313 |
+| fONv/benchmark MinNvis fO All visits RandomDitherPerNight HealpixSlicer    |         0.781 |           1.124 |
+| fOArea fO WFD RandomDitherPerNight HealpixSlicer                           |     17422.9   |       18098.5   |
+| fOArea/benchmark fO WFD RandomDitherPerNight HealpixSlicer                 |         0.968 |           1.005 |
+| fONv MedianNvis fO WFD RandomDitherPerNight HealpixSlicer                  |      1123     |        1081     |
+| fONv MinNvis fO WFD RandomDitherPerNight HealpixSlicer                     |       504     |         872     |
+| fONv/benchmark MedianNvis fO WFD RandomDitherPerNight HealpixSlicer        |         1.361 |           1.31  |
+| fONv/benchmark MinNvis fO WFD RandomDitherPerNight HealpixSlicer           |         0.611 |           1.057 |

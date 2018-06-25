@@ -1,8 +1,8 @@
-|                                                                                         |   kraken_2026 |   colossus_2665 |
-|:----------------------------------------------------------------------------------------|--------------:|----------------:|
-| Area (sq deg) RapidRevisits  RandomDitherPerNight RandomDitherPerNight HealpixSlicer    |       28106.3 |         28804.7 |
-| Median RapidRevisits  RandomDitherPerNight RandomDitherPerNight HealpixSlicer           |           1   |             1   |
-| RapidRevisits  RandomDitherPerNight RandomDitherPerNight HealpixSlicer                  |       32013   |         32225   |
-| Area (sq deg) RapidRevisits WFD RandomDitherPerNight RandomDitherPerNight HealpixSlicer |       37674.1 |         37797.2 |
-| Median RapidRevisits WFD RandomDitherPerNight RandomDitherPerNight HealpixSlicer        |           1   |             1   |
-| RapidRevisits WFD RandomDitherPerNight RandomDitherPerNight HealpixSlicer               |       22973   |         23839   |
+|                                                                           |   kraken_2026 |   colossus_2665 |
+|:--------------------------------------------------------------------------|--------------:|----------------:|
+| Area (sq deg) RapidRevisits All visits RandomDitherPerNight HealpixSlicer |       28024.8 |         28785.9 |
+| Median RapidRevisits All visits RandomDitherPerNight HealpixSlicer        |           1   |             1   |
+| RapidRevisits All visits RandomDitherPerNight HealpixSlicer               |       32009   |         32216   |
+| Area (sq deg) RapidRevisits WFD RandomDitherPerNight HealpixSlicer        |       37688.9 |         37796.3 |
+| Median RapidRevisits WFD RandomDitherPerNight HealpixSlicer               |           1   |             1   |
+| RapidRevisits WFD RandomDitherPerNight HealpixSlicer                      |       22964   |         23833   |
