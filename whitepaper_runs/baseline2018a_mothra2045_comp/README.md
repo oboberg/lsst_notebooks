@@ -6,7 +6,7 @@
 5. [Parallax](#parallax)
 6. [Proper Motion](#proper-motion)
 7. [Rapid Revisit](#rapid-revisit)
-8. [Fraction in Pairs](#fraction-in-pairs)
+8. [Fraction in Pairs](#fraction-in-paris)
 9. [Slews](#slews)
 10. [Filter Changes](#filter-changes)
 11. [Nvisits](#nvisits)
@@ -20,14 +20,18 @@
 # fO
 |                                                       |   baseline2018a |   mothra_2045 |
 |:------------------------------------------------------|----------------:|--------------:|
-| fOArea: Nvisits (#) fO All visits HealpixSlicer       |         836     |       475     |
-| fOArea: Nvisits/benchmark fO All visits HealpixSlicer |           1.013 |         0.576 |
-| fONv: Area (sqdeg) fO All visits HealpixSlicer        |       18056.6   |      4945.96  |
-| fONv: Area/benchmark fO All visits HealpixSlicer      |           1.003 |         0.275 |
-| fOArea: Nvisits (#) fO WFD HealpixSlicer              |         835     |       466     |
-| fOArea: Nvisits/benchmark fO WFD HealpixSlicer        |           1.012 |         0.565 |
-| fONv: Area (sqdeg) fO WFD HealpixSlicer               |       18040.6   |      4789.85  |
-| fONv: Area/benchmark fO WFD HealpixSlicer             |           1.002 |         0.266 |
+| fOArea fO All visits HealpixSlicer                    |       18056.6   |      4945.96  |
+| fOArea/benchmark fO All visits HealpixSlicer          |           1.003 |         0.275 |
+| fONv MedianNvis fO All visits HealpixSlicer           |         915     |       719     |
+| fONv MinNvis fO All visits HealpixSlicer              |         836     |       475     |
+| fONv/benchmark MedianNvis fO All visits HealpixSlicer |           1.109 |         0.872 |
+| fONv/benchmark MinNvis fO All visits HealpixSlicer    |           1.013 |         0.576 |
+| fOArea fO WFD HealpixSlicer                           |       18040.6   |      4789.85  |
+| fOArea/benchmark fO WFD HealpixSlicer                 |           1.002 |         0.266 |
+| fONv MedianNvis fO WFD HealpixSlicer                  |         912     |       715     |
+| fONv MinNvis fO WFD HealpixSlicer                     |         835     |       466     |
+| fONv/benchmark MedianNvis fO WFD HealpixSlicer        |           1.105 |         0.867 |
+| fONv/benchmark MinNvis fO WFD HealpixSlicer           |           1.012 |         0.565 |
 
 # Total Effective Time
 |                          |   baseline2018a |   mothra_2045 |
@@ -38,9 +42,9 @@
 # Normalized Effective Time
 |                                                    |   baseline2018a |   mothra_2045 |
 |:---------------------------------------------------|----------------:|--------------:|
-| Normalized Teff WFD all bands                      |           0.585 |         0.583 |
 | Median Normalized Teff WFD all bands HealpixSlicer |           0.584 |         0.513 |
 | Normalized Teff WFD all bands HealpixSlicer        |       21495     |     21495     |
+| Normalized Teff WFD all bands                      |           0.585 |         0.583 |
 
 # Open Shutter Fraction
 |                                                 |   baseline2018a |   mothra_2045 |
@@ -122,76 +126,80 @@
 |                                                  |   baseline2018a |   mothra_2045 |
 |:-------------------------------------------------|----------------:|--------------:|
 | Fraction of total Nvisits All props              |           1     |         1     |
-| Fraction of total Nvisits WFD                    |           0.864 |         0.835 |
 | Fraction of total Nvisits DeepDrillingCosmology1 |           0.046 |         0.052 |
+| Fraction of total Nvisits DD                     |           0.046 |         0.052 |
+| Fraction of total Nvisits WFD                    |           0.864 |         0.835 |
 | Fraction of total Nvisits NorthEclipticSpur      |           0.055 |         0.061 |
 | Fraction of total Nvisits WideFastDeep           |           0.864 |         0.835 |
-| Fraction of total Nvisits DD                     |           0.046 |         0.052 |
 | Fraction of total Nvisits GalacticPlane          |           0.016 |         0.023 |
 | Fraction of total Nvisits SouthCelestialPole     |           0.02  |         0.029 |
 
 # Median Nvisits WFD
 |                                            |   baseline2018a |   mothra_2045 |
 |:-------------------------------------------|----------------:|--------------:|
-| Median NVisits WFD y band HealpixSlicer    |             182 |           156 |
 | Median NVisits WFD all bands HealpixSlicer |             912 |           715 |
+| Median NVisits WFD g band HealpixSlicer    |              87 |            67 |
 | Median NVisits WFD z band HealpixSlicer    |             183 |           157 |
+| Median NVisits WFD y band HealpixSlicer    |             182 |           156 |
+| Median NVisits WFD r band HealpixSlicer    |             200 |           157 |
 | Median NVisits WFD i band HealpixSlicer    |             199 |           148 |
 | Median NVisits WFD u band HealpixSlicer    |              62 |            47 |
-| Median NVisits WFD r band HealpixSlicer    |             200 |           157 |
-| Median NVisits WFD g band HealpixSlicer    |              87 |            67 |
 
 # Median CoaddM5 WFD
 |                                         |   baseline2018a |   mothra_2045 |
 |:----------------------------------------|----------------:|--------------:|
-| Median CoaddM5 WFD y band HealpixSlicer |          24.892 |        24.777 |
+| Median CoaddM5 WFD g band HealpixSlicer |          27.11  |        26.95  |
 | Median CoaddM5 WFD z band HealpixSlicer |          25.707 |        25.668 |
+| Median CoaddM5 WFD y band HealpixSlicer |          24.892 |        24.777 |
+| Median CoaddM5 WFD r band HealpixSlicer |          27.188 |        27.059 |
 | Median CoaddM5 WFD i band HealpixSlicer |          26.613 |        26.452 |
 | Median CoaddM5 WFD u band HealpixSlicer |          25.615 |        25.395 |
-| Median CoaddM5 WFD r band HealpixSlicer |          27.188 |        27.059 |
-| Median CoaddM5 WFD g band HealpixSlicer |          27.11  |        26.95  |
 
 # Median Airmass WFD
 |                                                   |   baseline2018a |   mothra_2045 |
 |:--------------------------------------------------|----------------:|--------------:|
-| Median Median airmass WFD y band HealpixSlicer    |           1.079 |         1.133 |
 | Median Median airmass WFD all bands HealpixSlicer |           1.048 |         1.088 |
+| Median Median airmass WFD g band HealpixSlicer    |           1.046 |         1.065 |
 | Median Median airmass WFD z band HealpixSlicer    |           1.057 |         1.132 |
+| Median Median airmass WFD y band HealpixSlicer    |           1.079 |         1.133 |
+| Median Median airmass WFD r band HealpixSlicer    |           1.045 |         1.053 |
 | Median Median airmass WFD i band HealpixSlicer    |           1.05  |         1.071 |
 | Median Median airmass WFD u band HealpixSlicer    |           1.044 |         1.08  |
-| Median Median airmass WFD r band HealpixSlicer    |           1.045 |         1.053 |
-| Median Median airmass WFD g band HealpixSlicer    |           1.046 |         1.065 |
 
 # Median Seeing WFD
 |                                                     |   baseline2018a |   mothra_2045 |
 |:----------------------------------------------------|----------------:|--------------:|
-| Median Median seeingEff WFD y band HealpixSlicer    |           0.806 |         0.846 |
 | Median Median seeingEff WFD all bands HealpixSlicer |           0.836 |         0.869 |
+| Median Median seeingEff WFD g band HealpixSlicer    |           0.906 |         0.909 |
 | Median Median seeingEff WFD z band HealpixSlicer    |           0.816 |         0.86  |
+| Median Median seeingEff WFD y band HealpixSlicer    |           0.806 |         0.846 |
+| Median Median seeingEff WFD r band HealpixSlicer    |           0.849 |         0.86  |
 | Median Median seeingEff WFD i band HealpixSlicer    |           0.823 |         0.836 |
 | Median Median seeingEff WFD u band HealpixSlicer    |           0.956 |         0.989 |
-| Median Median seeingEff WFD r band HealpixSlicer    |           0.849 |         0.86  |
-| Median Median seeingEff WFD g band HealpixSlicer    |           0.906 |         0.909 |
 
 # Skymap comparisons
-- [Nvisits all bands](figures/baseline2018a_mothra_2045_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_mothra_2045_NVisits_all_bands_HEAL_ComboSkyMap.png)
-- [Nvisits alt/az all bands](figures/baseline2018a_mothra_2045_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_mothra_2045_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
-- [Median airmass all bands](figures/baseline2018a_mothra_2045_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_mothra_2045_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [Max airmass all bands](figures/baseline2018a_mothra_2045_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_mothra_2045_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [CoaddM5 r band](figures/baseline2018a_mothra_2045_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_mothra_2045_CoaddM5_r_band_HEAL_ComboSkyMap.png)
-- [Normalized Proper Motion at 20.5](figures/baseline2018a_mothra_2045_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_mothra_2045_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
-- [Normalized Parallax at 22.4](figures/baseline2018a_mothra_2045_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.baseline2018a_mothra_2045_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
+- [Nvisits all bands](figures/mothra_2045_baseline2018a_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.mothra_2045_baseline2018a_NVisits_all_bands_HEAL_ComboSkyMap.png)
+- [Nvisits alt/az all bands](figures/mothra_2045_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.mothra_2045_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
+- [Median airmass all bands](figures/mothra_2045_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.mothra_2045_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [Max airmass all bands](figures/mothra_2045_baseline2018a_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.mothra_2045_baseline2018a_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [CoaddM5 r band](figures/mothra_2045_baseline2018a_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.mothra_2045_baseline2018a_CoaddM5_r_band_HEAL_ComboSkyMap.png)
+- [Normalized Proper Motion at 20.5](figures/mothra_2045_baseline2018a_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.mothra_2045_baseline2018a_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
+- [Normalized Parallax at 22.4](figures/mothra_2045_baseline2018a_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.mothra_2045_baseline2018a_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
 # Histrogram comparisons
 ### CoaddM5 r band HealPix Histrogram
-![png](figures/thumb.baseline2018a_mothra_2045_CoaddM5_r_band_HEAL_ComboHistogram.png)
+![png](figures/thumb.mothra_2045_baseline2018a_CoaddM5_r_band_HEAL_ComboHistogram.png)
 ### Slew Distance Histogram
-![png](figures/thumb.baseline2018a_mothra_2045_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
-### Slew Time Histogram 
-![png](figures/thumb.baseline2018a_mothra_2045_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.mothra_2045_baseline2018a_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+### Zoom Slew Distance Histogram
+![png](figures/thumb.mothra_2045_baseline2018a_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+### Slew Time Histogram
+![png](figures/thumb.mothra_2045_baseline2018a_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+### Zoom Slew Time Histogram 
+![png](figures/thumb.mothra_2045_baseline2018a_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
