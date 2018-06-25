@@ -210,7 +210,7 @@
 - [Nvisits alt/az all bands](figures/kraken_2026_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
 ![png](figures/thumb.kraken_2026_baseline2018a_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
 - [Median airmass all bands](figures/kraken_2026_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.kraken_2026_baseline2018a_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
+![png](figures/thumb.kraken_2026_baseline2018a_Median_airmass_RandomDitherPerNight_all_bands_HEAL_ComboSkyMap.png)
 - [Max airmass all bands](figures/kraken_2026_baseline2018a_Max_airmass_RandomDitherPerNight_all_bands_HEAL_ComboSkyMap.pdf)
 ![png](figures/thumb.kraken_2026_baseline2018a_Max_airmass_RandomDitherPerNight_all_bands_HEAL_ComboSkyMap.png)
 - [CoaddM5 r band](figures/kraken_2026_baseline2018a_CoaddM5_RandomDitherPerNight_r_band_HEAL_ComboSkyMap.pdf)
