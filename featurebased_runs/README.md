@@ -15,3 +15,6 @@
 
 ### `nexus_2093`
 - [comparison with colossus_2665](https://github.com/oboberg/lsst_notebooks/blob/master/featurebased_runs/colossus2665_nexus2093_comp/README.md)
+
+### `pontus_2506`
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/featurebased_runs/kraken2026_pontus2506_comp/README.md)
