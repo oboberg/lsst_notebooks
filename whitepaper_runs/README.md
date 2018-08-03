@@ -90,6 +90,11 @@
 - [comparison with baseline2018a](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/baseline2018a_kraken2035_comp/README.md)
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2035_comp/README.md)
 
+### `kraken_2042`
+- Single 30 second snaps
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_single_snaps_30sec)
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2042_comp/README.md)
+
 
 ## Rolling cadences
 
