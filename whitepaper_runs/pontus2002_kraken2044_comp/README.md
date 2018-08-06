@@ -176,6 +176,7 @@
 | Median Median Inter-Night Gap WFD r band HealpixSlicer    |        13.967 |         3.999 |
 | Median Median Inter-Night Gap WFD all bands HealpixSlicer |         1.994 |         1.057 |
 
+
 # Median Airmass WFD
 |                                                   |   pontus_2002 |   kraken_2044 |
 |:--------------------------------------------------|--------------:|--------------:|
@@ -199,28 +200,28 @@
 | Median Median seeingEff WFD r band HealpixSlicer    |         0.865 |         0.866 |
 
 # Skymap comparisons
-- [Nvisits all bands](figures/kranek_2044_pontus_2002_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.kranek_2044_pontus_2002_NVisits_all_bands_HEAL_ComboSkyMap.png)
-- [Nvisits alt/az all bands](figures/kranek_2044_pontus_2002_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.kranek_2044_pontus_2002_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
-- [Median airmass all bands](figures/kranek_2044_pontus_2002_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.kranek_2044_pontus_2002_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [Max airmass all bands](figures/kranek_2044_pontus_2002_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.kranek_2044_pontus_2002_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [CoaddM5 r band](figures/kranek_2044_pontus_2002_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.kranek_2044_pontus_2002_CoaddM5_r_band_HEAL_ComboSkyMap.png)
-- [Normalized Proper Motion at 20.5](figures/kranek_2044_pontus_2002_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.kranek_2044_pontus_2002_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
-- [Normalized Parallax at 22.4](figures/kranek_2044_pontus_2002_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.kranek_2044_pontus_2002_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
+- [Nvisits all bands](figures/kranen_2044_pontus_2002_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.kranen_2044_pontus_2002_NVisits_all_bands_HEAL_ComboSkyMap.png)
+- [Nvisits alt/az all bands](figures/kranen_2044_pontus_2002_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.kranen_2044_pontus_2002_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
+- [Median airmass all bands](figures/kranen_2044_pontus_2002_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.kranen_2044_pontus_2002_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [Max airmass all bands](figures/kranen_2044_pontus_2002_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.kranen_2044_pontus_2002_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [CoaddM5 r band](figures/kranen_2044_pontus_2002_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.kranen_2044_pontus_2002_CoaddM5_r_band_HEAL_ComboSkyMap.png)
+- [Normalized Proper Motion at 20.5](figures/kranen_2044_pontus_2002_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.kranen_2044_pontus_2002_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
+- [Normalized Parallax at 22.4](figures/kranen_2044_pontus_2002_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.kranen_2044_pontus_2002_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
 # Histogram comparisons
 ### CoaddM5 r band HealPix Histogram
-![png](figures/thumb.kranek_2044_pontus_2002_CoaddM5_r_band_HEAL_ComboHistogram.png)
+![png](figures/thumb.kranen_2044_pontus_2002_CoaddM5_r_band_HEAL_ComboHistogram.png)
 ### Slew Distance Histogram
-![png](figures/thumb.kranek_2044_pontus_2002_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.kranen_2044_pontus_2002_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Distance Histogram
-![png](figures/thumb.kranek_2044_pontus_2002_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.kranen_2044_pontus_2002_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Slew Time Histogram
-![png](figures/thumb.kranek_2044_pontus_2002_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.kranen_2044_pontus_2002_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Time Histogram 
-![png](figures/thumb.kranek_2044_pontus_2002_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.kranen_2044_pontus_2002_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
