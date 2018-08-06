@@ -101,6 +101,7 @@
 - 2 rolling dec bands.
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_bigwfd_2rolling_dec/config_run)
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_mothra2049_comp/README.md)
+- [comparison with pontus_2002](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_mothra2049_comp/README.md)
 
 ## Rolling cadences
 
