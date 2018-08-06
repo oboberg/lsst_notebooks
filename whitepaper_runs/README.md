@@ -96,6 +96,11 @@
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2042_comp/README.md)
 - [dither comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2042_comp_dither/README.md)
 
+### `mothra_2049`
+- WFD + DD WFD having 274000 deg sq (X<1.5, DeMin = -78, DecMax = +18)
+- 2 rolling dec bands.
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_bigwfd_2rolling_dec/config_run)
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_mothra2049_comp/README.md)
 
 ## Rolling cadences
 
