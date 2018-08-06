@@ -103,6 +103,12 @@
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_mothra2049_comp/README.md)
 - [comparison with pontus_2002](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_mothra2049_comp/README.md)
 
+### `kraken_2044`
+- WFD + DD WFD having 274000 deg sq (X<1.5, DeMin = -78, DecMax = +18)
+- No pairs
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_bigwfd_2rolling_dec/config_run)
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2044_comp/README.md)
+
 ## Rolling cadences
 
 
