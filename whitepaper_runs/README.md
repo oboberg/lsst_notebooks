@@ -110,6 +110,7 @@
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2044_comp/README.md)
 - [comparison with pontus_2002](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_kraken2044_comp/README.md)
 - [comparison with pontus_2002 and mothra_2049](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_kraken2044_mothra2049_comp/README.md)
+- [comparison with pontus_2002, mothra_2049, and nexus_2097](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_kraken2044_mothra2049_nexus2097_comp/README.md)
 
 ## Rolling cadences
 
