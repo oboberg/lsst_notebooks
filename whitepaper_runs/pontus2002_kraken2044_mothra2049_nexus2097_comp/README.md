@@ -168,14 +168,20 @@
 # Median Internight Gap
 |                                                           |   pontus_2002 |   kraken_2044 |   mothra_2049 |   nexus_2097 |
 |:----------------------------------------------------------|--------------:|--------------:|--------------:|-------------:|
+| Median Inter-Night Gap WFD u band HealpixSlicer           |     31568     |     31568     |     31568     |    31568     |
 | Median Median Inter-Night Gap WFD u band HealpixSlicer    |        26.926 |        25.932 |         3.992 |        2.978 |
+| Median Inter-Night Gap WFD y band HealpixSlicer           |     31568     |     31568     |     31568     |    31568     |
 | Median Median Inter-Night Gap WFD y band HealpixSlicer    |         4.992 |         4.012 |         2.037 |        2.021 |
+| Median Inter-Night Gap WFD z band HealpixSlicer           |     31568     |     31568     |     31568     |    31568     |
 | Median Median Inter-Night Gap WFD z band HealpixSlicer    |        18.95  |         2.979 |         1.995 |        1.984 |
+| Median Inter-Night Gap WFD g band HealpixSlicer           |     31568     |     31568     |     31568     |    31568     |
 | Median Median Inter-Night Gap WFD g band HealpixSlicer    |        32.908 |        17.94  |        16.029 |       16.952 |
-| Median Median Inter-Night Gap WFD i band HealpixSlicer    |        13.438 |         6.484 |         6.009 |        6.454 |
-| Median Median Inter-Night Gap WFD r band HealpixSlicer    |        13.967 |         3.999 |         3.983 |        3.971 |
+| Median Inter-Night Gap WFD all bands HealpixSlicer        |     31568     |     31568     |     31568     |    31568     |
 | Median Median Inter-Night Gap WFD all bands HealpixSlicer |         1.994 |         1.057 |         1.014 |        1.014 |
-
+| Median Inter-Night Gap WFD i band HealpixSlicer           |     31568     |     31568     |     31568     |    31568     |
+| Median Median Inter-Night Gap WFD i band HealpixSlicer    |        13.438 |         6.484 |         6.009 |        6.454 |
+| Median Inter-Night Gap WFD r band HealpixSlicer           |     31568     |     31568     |     31568     |    31568     |
+| Median Median Inter-Night Gap WFD r band HealpixSlicer    |        13.967 |         3.999 |         3.983 |        3.971 |
 
 # Median Airmass WFD
 |                                                   |   pontus_2002 |   kraken_2044 |   mothra_2049 |   nexus_2097 |
@@ -200,28 +206,28 @@
 | Median Median seeingEff WFD r band HealpixSlicer    |         0.865 |         0.866 |         0.881 |        0.872 |
 
 # Skymap comparisons
-- [Nvisits all bands](figures/nexus_2097_pontus_2002_mothra_2049_pontus_2002_NVisits_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_NVisits_all_bands_HEAL_ComboSkyMap.png)
-- [Nvisits alt/az all bands](figures/nexus_2097_pontus_2002_mothra_2049_pontus_2002_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
-- [Median airmass all bands](figures/nexus_2097_pontus_2002_mothra_2049_pontus_2002_Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Median_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [Max airmass all bands](figures/nexus_2097_pontus_2002_mothra_2049_pontus_2002_Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Max_airmass_all_bands_HEAL_ComboSkyMap.png)
-- [CoaddM5 r band](figures/nexus_2097_pontus_2002_mothra_2049_pontus_2002_CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_CoaddM5_r_band_HEAL_ComboSkyMap.png)
-- [Normalized Proper Motion at 20.5](figures/nexus_2097_pontus_2002_mothra_2049_pontus_2002_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
-- [Normalized Parallax at 22.4](figures/nexus_2097_pontus_2002_mothra_2049_pontus_2002_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
+- [Nvisits all bands](figures/nexus_2097_pontus_2002_mothra_2049_kraken_2044NVisits_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044NVisits_all_bands_HEAL_ComboSkyMap.png)
+- [Nvisits alt/az all bands](figures/nexus_2097_pontus_2002_mothra_2049_kraken_2044Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Nvisits_as_function_of_Alt_Az_all_bands_HEAL_ComboSkyMap.png)
+- [Median airmass all bands](figures/nexus_2097_pontus_2002_mothra_2049_kraken_2044Median_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Median_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [Max airmass all bands](figures/nexus_2097_pontus_2002_mothra_2049_kraken_2044Max_airmass_all_bands_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Max_airmass_all_bands_HEAL_ComboSkyMap.png)
+- [CoaddM5 r band](figures/nexus_2097_pontus_2002_mothra_2049_kraken_2044CoaddM5_r_band_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044CoaddM5_r_band_HEAL_ComboSkyMap.png)
+- [Normalized Proper Motion at 20.5](figures/nexus_2097_pontus_2002_mothra_2049_kraken_2044Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Normalized_Proper_Motion_@_20_5_All_visits_HEAL_ComboSkyMap.png)
+- [Normalized Parallax at 22.4](figures/nexus_2097_pontus_2002_mothra_2049_kraken_2044Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.pdf)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Normalized_Parallax_@_22_4_All_visits_HEAL_ComboSkyMap.png)
 # Histogram comparisons
 ### CoaddM5 r band HealPix Histogram
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_CoaddM5_r_band_HEAL_ComboHistogram.png)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044CoaddM5_r_band_HEAL_ComboHistogram.png)
 ### Slew Distance Histogram
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Distance Histogram
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Zoom_Slew_Distance_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Slew Time Histogram
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
 ### Zoom Slew Time Histogram 
-![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_pontus_2002_Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
+![png](figures/thumb.nexus_2097_pontus_2002_mothra_2049_kraken_2044Zoom_Slew_Time_Histogram_All_visits_ONED_ComboBinnedData.png)
