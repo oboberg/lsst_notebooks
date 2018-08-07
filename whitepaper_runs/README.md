@@ -112,6 +112,12 @@
 - [comparison with pontus_2002 and mothra_2049](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_kraken2044_mothra2049_comp/README.md)
 - [comparison with pontus_2002, mothra_2049, and nexus_2097](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_kraken2044_mothra2049_nexus2097_comp/README.md)
 
+### `nexus_2097`
+- WFD + DD WFD having 274000 deg sq (X<1.5, DeMin = -78, DecMax = +18)
+- Full WFD first and last 2 years, 3 alternating dec bands in between
+- [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_bigwfd_2rolling_dec/config_run)
+- [comparison with pontus_2002](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_nexus2097_comp/README.md)
+
 ## Rolling cadences
 
 
