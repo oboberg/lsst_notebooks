@@ -94,6 +94,7 @@
 - Single 30 second snaps
 - [configuration repository](https://github.com/lsst-ts/opsim4_config/tree/whitepaper2018_single_snaps_30sec)
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2042_comp/README.md)
+- [comparison with kraken_2026 and pontus_2489](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_pontus2489_kraken_2042_comp/README.md)
 - [dither comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_kraken2042_comp_dither/README.md)
 
 ### `mothra_2049`
