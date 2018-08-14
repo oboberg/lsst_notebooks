@@ -120,6 +120,9 @@
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_nexus2097_comp/README.md)
 - [comparison with pontus_2002](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/pontus2002_nexus2097_comp/README.md)
 
+### `astro-lsst-01_2034`
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_astro-lsst-01_2034_comp/README.md)
+
 ## Rolling cadences
 
 
