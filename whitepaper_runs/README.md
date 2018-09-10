@@ -123,6 +123,9 @@
 ### `astro-lsst-01_2034`
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_astro-lsst-01_2034_comp/README.md)
 
+### `astro-lsst-01_2039`
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/whitepaper_runs/kraken2026_astro-lsst-01_2039_comp/README.md)
+
 ## Rolling cadences
 
 
