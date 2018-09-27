@@ -33,3 +33,6 @@
 
 ### `colossus_2683`
 - [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/featurebased_runs/kraken2026_colossus2683_comp/README.md)
+
+### `pontus_2564`
+- [comparison with kraken_2026](https://github.com/oboberg/lsst_notebooks/blob/master/featurebased_runs/kraken2026_pontus2564_comp/README.md)
